@@ -1,0 +1,10 @@
+- - -
+- S3:
+    bucket: ca-mlflow-v1
+    key: Development
+- artifacts:
+    vectoriser: TFIDFVectorizer.pkl
+    classifier: Classifier.pkl
+    train: train.tsv
+    test: test.tsv
+...
