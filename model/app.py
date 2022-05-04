@@ -95,4 +95,5 @@ def transformation():
     return flask.Response(response=result, status=200, mimetype='application/json')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    print(" ******************** starting the server ******************* " )
+    app.run(host='0.0.0.0', port='5000' , debug=True)

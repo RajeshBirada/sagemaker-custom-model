@@ -34,7 +34,6 @@ def sigterm_handler(nginx_pid, gunicorn_pid):
         os.kill(gunicorn_pid, signal.SIGTERM)
     except OSError:
         pass
-
     sys.exit(0)
 
 
